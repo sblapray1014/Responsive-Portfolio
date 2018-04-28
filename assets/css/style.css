@@ -143,30 +143,45 @@ body {
        }
        .menu {
         width: fit-content;
+        height: fit-content;
     }
    }
+
    @media screen and (max-width: 768px) {
     header {
         width: fit-content;
+        float: right;
        }
     #mainContent {
        width: fit-content;
        font-size: 14px;
+       position: static;
+   }
+   .name {
+       width: fit-content;
+       position: static;
    }
     .menu {
         width: fit-content;
+        position: static;
     }
 }
 
    @media screen and (max-width: 640px) {
     .header {
         width: fit-content;
+        float: right;
        }   
     #mainContent {
-        width: fontent;
+        width: fit-content;
+        position: static;
+       }
+       .name {
+        width: fit-content;
        }
        .menu {
         width: fit-content;
+        height: fit-content;
     }
    }
 
